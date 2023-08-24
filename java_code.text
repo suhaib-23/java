@@ -1,0 +1,30 @@
+java with one of their data type plus user input
+
+package prcatice;
+<waa project magaciisa>
+
+import java.util.Scanner;
+<waxa weeye markaad aad rabto inuu user wax soo galiyo tan la aanteed waxba ma soo galin kartid>
+
+public class zaad {
+<waa class aad joogto magaciisa>
+
+	public static void main(String[] args) {
+<waa meesha uu complierku ka soo akhrisanayo code kaga>
+
+		Scanner scan = new Scanner(System.in);
+<waa import halka sare markaad rabto inaad isticmaasho waa sidaad code uugu so dari lahayd>
+
+		System.out.println("Enter first  :");
+<waa waxa ii soo daabac>
+
+		int x = scan.nextInt();
+<waa mid ka mid ah datatype ka iyo qiimahiisi waxana raacsan scanner magii aad u bixisay iyo next data typeka>
+
+		System.out.println("Enter second :");
+		int y = scan.nextInt();
+		int result = x+y;
+		System.out.print("the result is  "+result);
+	}
+
+}
